@@ -1,0 +1,468 @@
+
+
+
+/* to save------------------------------------------------------------------------------------------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway&display=swap');
+
+
+ 
+body{
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size:19px ;
+}
+ 
+
+
+.s1{
+    height: 280vh;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.st{
+    height: calc(100% - 10vh);
+    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.s2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+     background-color: white;
+    height: 10vh;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.609) ;
+    position: relative;
+    z-index: 4;
+    
+}
+
+.z1{
+    text-decoration: none;
+    color: black;
+  padding-top: 20px;
+  width: 175px;
+text-align: center;
+transition: 0.3s;
+
+}
+
+.z1:hover{
+    color: white;
+    font-size:20px ;
+  background-color: black;
+  }
+
+  .im1{
+height: 9.5vh;
+transition: 0.5s;
+
+  }
+
+  .logo{
+    position: absolute;
+    left: 40px;
+    
+  }
+  
+ 
+.foot{
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 100%;
+    box-shadow: 1px 0px 5px 3px rgba(3, 3, 3, 0.938);
+    position: absolute;
+    bottom: 0;
+    
+}
+h6{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 23px;
+    color: white;
+
+}
+ 
+.menu{
+    width: 50px;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    visibility: hidden;
+ 
+  
+}
+/* to save---------------------------------------------------------------------------------------- */
+ 
+ 
+.e1{
+     
+    width:calc(100% -30px);
+    height: calc(100% - 10vh - 60px);
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 30px  15px;
+    transition: 0.6s;
+} 
+
+
+.e2{
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+     
+    flex-direction: column;
+    gap: 45px;
+    transition: 1s;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.845);
+    position: relative;
+    overflow-y: scroll;
+
+}
+
+.e2:hover{
+    background: linear-gradient( 90deg , rgba(86, 235, 255, 0.709) 0%, rgba(255, 255, 255, 0) 50% ,  rgba(86, 235, 255, 0.701) 100%);
+     
+}
+
+
+
+.e3{
+    background: linear-gradient(to top, rgb(86, 235, 255) 25%, rgba(255, 255, 255, 0) 100%);
+
+    font-weight: 600;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.845);
+    position: relative;
+
+}
+
+
+.e3:hover{
+
+   
+    scale: 1.03;
+}
+
+
+
+.im4{
+    width: 6%;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    transition: 0.5s;
+}
+.im4:hover{
+    width: 6.5%;
+}
+
+
+.cour{
+
+    background-color: rgb(28, 130, 255);
+    color: white;
+    border-radius: 50px;
+text-decoration: none;
+padding: 5px 70px;
+margin-top: 14px;
+ box-shadow: 1px 1px 3px black;
+ transition: 0.5s;
+}
+
+.cour:hover{
+ 
+    scale: 1.07;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive TABLETTE +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  @media (max-width: 1180px) and (min-width: 749px) {
+   
+    
+    /* to save-------------------------------------------------------------------------------------------------- */
+    .s2{
+        display: flex;
+        flex-direction:column; 
+        justify-content: flex-start;
+        
+        height: 100%;
+        width: 175px;
+         
+
+    }
+    .im1{
+        height: 11vh;
+        transition: 0.5s;
+       
+        
+          }
+
+    .logo{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        
+      }
+      
+#ac{
+    margin-top: 150px;
+}
+
+      .z1{
+        text-decoration: none;
+        color: black;
+      width: 175px;
+     align-content: center;
+    transition: 0.3s;
+    margin-top: 20px;
+    height: 50px;
+    }
+
+
+    .s1{
+        height: 210vh;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .st{
+        height: 100%;
+        width: calc(100vw - 175px);
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+ 
+.menu{
+    visibility: hidden;
+}
+
+ /* to save-------------------------------------------------------------------------------------------------------------- */
+
+ .e1{
+     
+    width:calc(100% - 30px);
+    height: calc(100% - 10vh - 30px);
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 15px  15px;
+    transition: 0.6s;
+} 
+
+.e3{
+    font-size: 15px;
+}
+.e2{
+    font-size: 15px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Responsive mobile +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  @media (max-width: 750px) and (min-width: 0px) {
+
+    /* to save-------------------------------------------------------------------------------------------------------- */
+    
+    .s2{
+        display: flex;
+        flex-direction:column; 
+        justify-content: flex-start;
+        transition: 0.4s;
+        height: 15vh;
+        width: 100%;
+         
+
+    }
+    .im1{
+        height: 11vh;
+        transition: 0.5s;
+       
+        
+          }
+
+    .logo{
+        position: absolute;
+       margin: 20px auto;
+        
+      }
+      
+#ac{
+    margin-top: 150px;
+}
+
+      .z1{
+        text-decoration: none;
+        color: black;
+      width: 100%;
+     align-content: center;
+    transition: 0.3s;
+    margin-top: 20px;
+    height: 50px;
+    display: none;
+    }
+
+   
+
+
+    .s1{
+        height: 250vh;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .st{
+        height: calc(100% - 14vh);
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+
+.menu{
+    visibility: visible;
+}
+
+h6{
+    font-size: 15px;
+}
+
+/* to save----------------------------------------------------------------------------------------------------------------- */
+
+
+
+ 
+.e1{
+     
+    width:calc(100% - 30px);
+    height: calc(100% - 10vh - 30px);
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 7px;
+    margin: 15px  15px;
+    transition: 0.6s;
+} 
+
+.e3{
+    font-size: 17px;
+    
+    background: linear-gradient(to bottom, rgb(86, 235, 255) 25%, rgba(255, 255, 255, 0) 100%);
+    
+}
+.e2{
+    font-size: 17px;
+    gap: 5px;
+    
+}
+.cour{
+    padding: 5px 10px;
+margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+  }
